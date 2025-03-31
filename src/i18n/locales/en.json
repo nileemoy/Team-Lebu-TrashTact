@@ -1,0 +1,119 @@
+{
+  "common": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "home": "Home",
+    "chat": "Chat",
+    "community": "Community",
+    "scanQR": "Scan QR",
+    "notFound": "Page Not Found",
+    "loading": "Loading...",
+    "success": "Success!",
+    "learnMore": "Learn more",
+    "cancel": "Cancel"
+  },
+  "nav": {
+    "scanner": "Scanner",
+    "map": "Map",
+    "rewards": "Rewards",
+    "features": "Features"
+  },
+  "scanner": {
+    "title": "AI Waste Scanner",
+    "description": "Our AI-powered scanner identifies your waste item and provides guidance on proper disposal methods.",
+    "cameraPreview": "Camera Preview",
+    "positionItem": "Position your waste item in frame",
+    "startCamera": "Start Camera",
+    "stopCamera": "Stop Camera",
+    "analyzeWaste": "Analyze Waste",
+    "analyzing": "Analyzing...",
+    "aiIdentifying": "Our AI is identifying your waste item",
+    "itemIdentified": "Item Identified",
+    "scanAgain": "Scan Again",
+    "closeCamera": "Close Camera",
+    "cameraStarted": "Camera started",
+    "cameraActive": "Your camera is now active",
+    "cameraError": "Camera error",
+    "checkPermissions": "Could not access your camera. Please check permissions.",
+    "type": "Type",
+    "disposalMethod": "Disposal Method",
+    "wasteInfo": {
+      "title": "Waste Information",
+      "subtitle": "Detailed information about the scanned waste item",
+      "scanPrompt": "Scan an item to get detailed disposal information"
+    }
+  },
+  "features": {
+    "title": "Smart Features for Smart Waste Management",
+    "description": "Our platform combines artificial intelligence, geolocation, and gamification to make waste disposal efficient and rewarding.",
+    "scan": {
+      "title": "AI Waste Recognition",
+      "description": "Our AI model accurately identifies different types of waste and provides proper disposal instructions."
+    },
+    "locate": {
+      "title": "Interactive Disposal Map",
+      "description": "Find the nearest waste disposal locations with real-time availability and navigation."
+    },
+    "earn": {
+      "title": "Reward Tracking",
+      "description": "Earn points for properly disposing of waste and exchange them for rewards with our partner businesses."
+    },
+    "impact": {
+      "title": "Environmental Impact",
+      "description": "Track your personal environmental impact with detailed statistics and visualizations."
+    }
+  },
+  "rewards": {
+    "title": "Rewards Program",
+    "description": "Earn points for responsible waste disposal",
+    "points": {
+      "scan": "Scan Points",
+      "disposal": "Disposal Points",
+      "community": "Community Points"
+    }
+  },
+  "chat": {
+    "title": "AI Assistant",
+    "placeholder": "Ask about waste disposal...",
+    "send": "Send"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Intelligent Waste Management",
+      "title": "Turn Your Waste Into Rewards With AI",
+      "description": "Scan, dispose, earn rewards. Our AI-powered system helps you identify the proper disposal methods for waste and rewards you for your environmental contributions.",
+      "startScanning": "Start Scanning",
+      "viewMap": "View Map",
+      "demo": {
+        "title": "Waste Scanner Demo",
+        "preview": "Camera preview will appear here"
+      }
+    },
+    "features": {
+      "title": "Features",
+      "scanWaste": "Scan Waste",
+      "scanWasteDesc": "Use AI to identify different types of waste",
+      "findLocations": "Find Locations",
+      "findLocationsDesc": "Locate nearby waste disposal centers",
+      "earnRewards": "Earn Rewards",
+      "earnRewardsDesc": "Get points for proper waste disposal",
+      "community": "Community",
+      "communityDesc": "Connect with other eco-conscious users"
+    },
+    "rewards": {
+      "title": "Earn Rewards",
+      "description": "Get points for every proper waste disposal",
+      "scanPoints": "Scan Points",
+      "disposalPoints": "Disposal Points",
+      "communityPoints": "Community Points"
+    }
+  }
+} 

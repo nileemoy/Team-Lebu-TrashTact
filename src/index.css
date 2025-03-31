@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 150 25% 98%;
+    --foreground: 150 15% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 150 15% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 15% 10%;
+
+    --primary: 151 42% 42%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 199 69% 84%;
+    --secondary-foreground: 199 75% 25%;
+
+    --muted: 150 10% 94%;
+    --muted-foreground: 150 10% 40%;
+
+    --accent: 199 69% 84%;
+    --accent-foreground: 199 75% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 150 15% 90%;
+    --input: 150 15% 90%;
+    --ring: 151 42% 42%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 150 15% 10%;
+    --foreground: 150 10% 98%;
+
+    --card: 150 20% 12%;
+    --card-foreground: 150 10% 98%;
+
+    --popover: 150 20% 12%;
+    --popover-foreground: 150 10% 98%;
+
+    --primary: 151 42% 42%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 199 69% 25%;
+    --secondary-foreground: 199 75% 90%;
+
+    --muted: 150 15% 20%;
+    --muted-foreground: 150 10% 70%;
+
+    --accent: 199 69% 25%;
+    --accent-foreground: 199 75% 90%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 150 15% 20%;
+    --input: 150 15% 20%;
+    --ring: 151 42% 42%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium tracking-tight;
+  }
+
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-sm;
+  }
+
+  .glass-card {
+    @apply bg-white/50 backdrop-blur-md border border-white/20 rounded-xl shadow-md transition-all duration-300;
+  }
+
+  .glass-card:hover {
+    @apply bg-white/60 shadow-lg transform translate-y-[-2px];
+  }
+
+  .smooth-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}
